@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 aims to follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once the first release is
 tagged. Until then, source builds report the version `dev`.
 
+## [0.3.0](https://github.com/Gitlawb/zero/compare/v0.2.0...v0.3.0) (2026-07-08)
+
+
+### Features
+
+* **providers:** OAuth login profiles and list-first /provider manager ([#560](https://github.com/Gitlawb/zero/issues/560)) ([1655056](https://github.com/Gitlawb/zero/commit/16550569c1be615cfaf244dab25909ec37f6dee6))
+* **tui:** remember recent provider+model selections in /model picker ([#568](https://github.com/Gitlawb/zero/issues/568)) ([d0c4e62](https://github.com/Gitlawb/zero/commit/d0c4e62cd429a0614c15296934c740a08bc0e07b))
+* **tui:** show CLI version on the startup home screen ([#538](https://github.com/Gitlawb/zero/issues/538)) ([fd69233](https://github.com/Gitlawb/zero/commit/fd69233e334f1823a06b5794085a9255b3abdfa8))
+* voice dictation (speech-to-text) ([#557](https://github.com/Gitlawb/zero/issues/557)) ([87158a1](https://github.com/Gitlawb/zero/commit/87158a1c90b4f91fc5f2bb8178ebaf46d7654680))
+
+
+### Bug Fixes
+
+* address bugs found in a multi-agent codebase audit ([#481](https://github.com/Gitlawb/zero/issues/481)) ([008bc9b](https://github.com/Gitlawb/zero/commit/008bc9b3f3ba13c7d4822b9559b020f381ff555b))
+* **agent:** keep tools exposed for max-turn finalization ([#533](https://github.com/Gitlawb/zero/issues/533)) ([3f0503b](https://github.com/Gitlawb/zero/commit/3f0503bc2312ae29d5ade784d8824dc9a3524958))
+* gitignore Windows sandbox helpers and npm version marker ([#578](https://github.com/Gitlawb/zero/issues/578)) ([25653f6](https://github.com/Gitlawb/zero/commit/25653f686c016f95b81ceb7ff5d5452d37c4d4f3))
+* **mcp:** silence startup warning for unconfigured default servers ([#563](https://github.com/Gitlawb/zero/issues/563)) ([302f58b](https://github.com/Gitlawb/zero/commit/302f58bb5f2a03ec7230354ed4747e4e55c16c50))
+* **provider:** stop dropping custom no-auth providers on restart ([#558](https://github.com/Gitlawb/zero/issues/558)) ([ba99fa8](https://github.com/Gitlawb/zero/commit/ba99fa8d487fb28f2700e0ff10b2a25c75303cf7))
+* **tools:** platform-specific pager suggestions, quote/caret-safe cd detection ([#543](https://github.com/Gitlawb/zero/issues/543)) ([8b248f4](https://github.com/Gitlawb/zero/commit/8b248f4e1198dc86ab332a697fba4cf520823cbd))
+* **tui:** bypass toggleSidebar and toggleMouse global shortcuts when composer is non-empty ([#576](https://github.com/Gitlawb/zero/issues/576)) ([c7346fb](https://github.com/Gitlawb/zero/commit/c7346fbcf01fe7e70ed2fcfccbf9965e5985727b))
+* **tui:** update picker_test for switchProviderModel 4-value return ([#589](https://github.com/Gitlawb/zero/issues/589)) ([8f15650](https://github.com/Gitlawb/zero/commit/8f156506dc92449bd24caa14e36f28477ba00fff))
+
 ## [0.2.0](https://github.com/Gitlawb/zero/compare/v0.1.0...v0.2.0) (2026-07-06)
 
 
